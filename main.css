@@ -9,7 +9,7 @@ html, body {
     background: linear-gradient(90deg, rgba(229,228,226,1) 0%, rgba(175,175,175,1) 35%, rgba(176,196,222,1) 100%);    
     color: #000000;
     font-family:'Open Sans', sans-serif;
-    font-size: 1.2rem;
+    font-size: 16px;
     margin: 0;
     padding-top: 20px;
     padding-left: 20px;
@@ -20,7 +20,6 @@ header {
   align-items: center;
   background: rgb(2,0,36);
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  background-position: cover;
   background-repeat: no-repeat;
   background-size: 100% auto;
   border: 5px solid darkgoldenrod;
@@ -35,6 +34,7 @@ header {
   position: relative;
   text-align: center;
   margin-bottom: 20px;
+  font-size: 30px;
 }
 
 img {
@@ -46,9 +46,8 @@ img {
  }
 
 h2 {
-  background: rgb(143,188,143);
-  background: linear-gradient(90deg, rgba(143,188,143,1) 0%, rgba(119,221,119,1) 35%, rgba(67,179,174,1) 100%);
-  background-position: cover;
+  background: rgb(192,192,192);
+  background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(169,172,182,1) 35%, rgba(175,175,175,1) 100%);
   background-repeat: no-repeat;
   background-size: 100% auto;
   border: 5px solid darkgoldenrod;
@@ -64,6 +63,7 @@ h2 {
   font-size: 1.4rem;
   justify-content: center;
   overflow: auto;
+  font-sie: 20px;
 }
 
 footer {
