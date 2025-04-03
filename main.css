@@ -34,7 +34,7 @@ header {
   position: relative;
   text-align: center;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 img {
@@ -63,7 +63,7 @@ h2 {
   font-size: 1.4rem;
   justify-content: center;
   overflow: auto;
-  font-sie: 20px;
+  font-size: 20px;
 }
 
 footer {
