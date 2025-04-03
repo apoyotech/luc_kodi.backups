@@ -5,8 +5,8 @@ box-sizing: border-box;
 }
 
 html, body {
-    background: rgb(229,228,226);
-    background: linear-gradient(90deg, rgba(229,228,226,1) 0%, rgba(175,175,175,1) 35%, rgba(176,196,222,1) 100%);    
+    background: rgb(211,211,211);
+    background: linear-gradient(90deg, rgba(211,211,211,1) 0%, rgba(229,228,226,1) 35%, rgba(211,211,211,1) 100%);
     color: #000000;
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
@@ -22,7 +22,7 @@ header {
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  border: 5px solid darkgoldenrod;
+  border: 5px darkgoldenrod;
   border-radius: 15px;
   color: #FFA500;
   display: flex;
@@ -50,7 +50,7 @@ h2 {
   background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(169,172,182,1) 35%, rgba(175,175,175,1) 100%);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  border: 5px solid darkgoldenrod;
+  border: 5px darkgoldenrod;
   border-radius: 15px;
   color: #000000;
   display: flex;
