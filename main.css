@@ -36,6 +36,13 @@ header {
   font-size: 25px;
 }
 
+h1 {
+    background-image: linear-gradient(to right, #ff00ff, #e49b0f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;    
+}
+
 img {
     width: 426px; 
     height: auto;
