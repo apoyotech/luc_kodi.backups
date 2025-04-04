@@ -37,8 +37,8 @@ header {
 }
 
 img {
-    width: 320px; 
-    height: 180px;
+    width: 426px; 
+    height: auto;
     border: 3px solid darkgoldenrod;
     border-radius: 15px;
  }
