@@ -59,20 +59,41 @@ img {
 h2 {
   background: rgb(192,192,192);
   background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(192,192,192,1) 50%, rgba(192,192,192,1) 100%);
-  border-radius: 12px;
-  color: #000000;
-  padding: 1rem 2rem;
-  margin-bottom: 20px;
-  font-family: Jost, sans-serif;
-  font-size: 1rem;
-  text-decoration: inherit;
-  border: 10px;
-  border-image-slice: 1;
-  border-width: 5px;
-  border-image-source: linear-gradient(to right, #ff00ff, #e49b0f);
+  font-family: sans-serif;
+  color: whitesmoke;
+  line-height: 1.4;
+  box-sizing: border-box;
+  margin: 1rem auto 2rem;
+  padding: 1rem;
+  width: 80%;
+  max-width: 25rem;
+  background: linear-gradient(#222, #222), 
+              linear-gradient(to right, red, purple);
+  border: 5px solid transparent;
+  background-repeat: no-repeat;
+  background-origin: padding-box, border-box;
 }
-  
 
+.h2--rounded {
+  border-radius: 1rem;
+  border-width: 10px;
+  position: relative;
+}
+
+.h2--rounded::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  border: 6px solid #222;
+  border-radius: .8rem;
+}
+
+
+
+  
 
 
 
