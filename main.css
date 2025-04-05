@@ -58,7 +58,7 @@ h2 {
   font-family: Jost, sans-serif;
   font-size: 1rem;
   text-decoration: inherit;
-  border: 10px solid;
+  border: 10px;
   border-image-slice: 1;
   border-width: 5px;
   border-image-source: linear-gradient(to right, #ff00ff, #e49b0f);
