@@ -39,7 +39,7 @@ header {
   border-image-slice: 1;
   border-width: 5px;
   border-image-source: linear-gradient(to right, #ff00ff, #e49b0f);
-  border: linear gradient;
+  
 }
 
 h1 {
@@ -59,7 +59,7 @@ img {
 button {
   background: rgb(192,192,192);
   background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(192,192,192,1) 50%, rgba(192,192,192,1) 100%);
-  margin-buttom: 20px;
+  margin-bottom: 20px;
   --timing: linear(0, 0.3, 0.75, 1);
   font-family: Jost, sans-serif;
   font-size: 1rem;
@@ -69,11 +69,11 @@ button {
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
   animation: move 1s infinite var(--timing);
-
-  &.fill {
+}
+  button.fill {
     border-image-slice: 1 1 1 1 fill;
   }
-}
+
 
 @keyframes move {
   from { --a: 0deg; }
