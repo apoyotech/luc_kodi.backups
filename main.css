@@ -39,6 +39,7 @@ header {
   border-image-slice: 1;
   border-width: 5px;
   border-image-source: linear-gradient(to right, #ff00ff, #e49b0f);
+  border: linear gradient;
 }
 
 h1 {
