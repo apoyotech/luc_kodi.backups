@@ -60,19 +60,14 @@ button {
   background: rgb(192,192,192);
   background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(192,192,192,1) 50%, rgba(192,192,192,1) 100%);
   margin-buttom: 20px;
---timing: linear(0, 0.3, 0.75, 1);
-
+  --timing: linear(0, 0.3, 0.75, 1);
   font-family: Jost, sans-serif;
   font-size: 1rem;
-
   padding: 1rem 2rem;
-  
-  color: #fff;
-
+  color: #000000;
   border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
-
   animation: move 1s infinite var(--timing);
 
   &.fill {
