@@ -65,7 +65,7 @@ h2 {
   font-size: 1rem;
   padding: 1rem 2rem;
   color: #000000;
-  border-image-source: conic-gradient(from var(--a), #9932cc, #ff00ff, #dda0dd);
+  border-image-source: conic-gradient(from var(--a), #ff0000, #ff00ff, #00ff7f);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
   animation: move 1s infinite var(--timing);
