@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 
 html, body {
-    background: rgb(229,228,226);
+    background: rgb(139, 139, 139);
     color: #000000;
     font-family:'Open Sans', sans-serif;
     font-size: 18px;
@@ -64,8 +64,7 @@ img {
  }
 
 h2 {
-  background: rgb(192,192,192);
-  background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(192,192,192,1) 50%, rgba(192,192,192,1) 100%);
+  backgroud: rgb(139, 139, 139);
   margin-bottom: 20px;
   --timing: linear(0, 0.3, 0.75, 1);
   font-family: 'Jost', sans-serif;
