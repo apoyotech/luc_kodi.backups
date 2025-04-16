@@ -108,6 +108,7 @@ img {
   user-select: none;
   z-index: 2;
   transition: all 0.12s ease;
+  color: rgb(228, 155, 15);
 }
 
 
