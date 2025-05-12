@@ -193,6 +193,8 @@ img {
   cursor: pointer;
   border: none;
   font-family: monospace;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .button span {
