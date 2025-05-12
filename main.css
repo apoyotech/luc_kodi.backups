@@ -6,10 +6,8 @@ box-sizing: border-box;
 }
 
 html {
-    background: rgb(135, 134, 129);
-    color: #000000;
+    background: rgb(211, 211, 211);
     font-family:'Open Sans', sans-serif;
-    font-size: 16px;
 }
 
 body {
