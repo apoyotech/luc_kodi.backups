@@ -181,46 +181,53 @@ img {
 }
 
 
+ 
 .button {
-  --color-1: #e5fb6a;
-  --color-2: #2bf46e;
-  --color-1-shadow: #e5fb6a23;
-  --color-2-shadow: #2bf46e23;
-  --color-1-shadow-focus: #e5fb6a67;
-  --color-2-shadow-focus: #2bf46e67;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(45deg, #0ce39a, #69007f, #fc0987);
+  padding: 14px 25px;
+  border-radius: 16px;
+  font-size: 1.25em;
   cursor: pointer;
-  padding: 1rem 1.5rem;
-  border-radius: 0.75rem;
-  border: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;  
-  width: 100%;  
-  height: auto; 
-  font-size: 1rem;
-  background-image: linear-gradient(
-    to right bottom,
-    var(--color-1) 0%,
-    var(--color-2) 100%
-  );
-  box-shadow:
-    -4px -4px 16px 8px var(--color-1-shadow),
-    4px 4px 16px 8px var(--color-2-shadow);
-  transition: all 0.3s cubic-bezier(0.6, 0.12, 0.39, 0.83);
+  border: none;
+  font-family: monospace;
 }
 
-.button:hover,
-.button:active,
-.button:focus,
-.button:focus-visible,
-.button:focus-within {
-  box-shadow:
-    -4px -4px 32px 4px var(--color-1-shadow-focus),
-    4px 4px 32px 4px var(--color-2-shadow-focus);
+.button span {
+  position: relative;
+  z-index: 1;
 }
 
-.button:hover {
-  filter: contrast(1.25);
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #272727;
+  border-radius: 14px;
+  transition: 0.5s;
 }
+
+.button:hover::before {
+  opacity: 0.7;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  inset: 0px;
+  background: linear-gradient(45deg, #0ce39a, #69007f, #fc0987);
+  border-radius: 9px;
+  transition: 0.5s;
+  opacity: 0;
+  filter: blur(20px);
+}
+
+.button:hover:after {
+  opacity: 1;
+}
+
 
     
 
