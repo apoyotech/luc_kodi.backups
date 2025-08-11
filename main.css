@@ -63,8 +63,7 @@ button {
   color: #fff;
   cursor: pointer;
   box-shadow: 2px 2px 3px #000000b4;
-  margin-bottom: 40px;
-}
+  }
 
 .container {
   position: relative;
@@ -72,6 +71,7 @@ button {
   background: linear-gradient(90deg, #03a9f4, #f441a5);
   border-radius: 0.9em;
   transition: all 0.4s ease;
+  margin-bottom: 40px;
 }
 
 .container::before {
