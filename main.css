@@ -71,8 +71,7 @@ button {
   background: linear-gradient(90deg, #03a9f4, #f441a5);
   border-radius: 0.9em;
   transition: all 0.4s ease;
-  margin-bottom: 40px;
-}
+  }
 
 .container::before {
   content: "";
